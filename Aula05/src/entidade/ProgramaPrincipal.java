@@ -9,7 +9,6 @@ public class ProgramaPrincipal {
 		civic.ano = 2008;
 		civic.cor = "Prata";
 		civic.placa = "83KHH6";
-		civic.acelera();
 		civic.exibirInfo();
 		
 		Carro kicks = new Carro();
@@ -18,7 +17,6 @@ public class ProgramaPrincipal {
 		kicks.ano = 2024;
 		kicks.cor = "Vermelho";
 		kicks.placa = "33K9HB";
-		kicks.acelera();
 		kicks.exibirInfo();
 		
 		Carro strada = new Carro();
@@ -27,7 +25,6 @@ public class ProgramaPrincipal {
 		strada.ano = 2023;
 		strada.cor = "Branco";
 		strada.placa = "09FD7M";
-		strada.acelera();
 		strada.exibirInfo();
 		
 	}
